@@ -10,9 +10,15 @@ public enum CartaPizzas {
     VEGGIE(10)
     ;
 
+    public double getPrecio() {
+        return precio;
+    }
+
     private double precio;
 
     CartaPizzas(double precio){
         this.precio = precio;
     }
+
+
 }
